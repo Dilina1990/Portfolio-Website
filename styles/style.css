@@ -1,0 +1,145 @@
+* {
+  font-size: 16px;
+  font-family: 'poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  line-height: 1.5;
+}
+
+li, a {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  line-height: 1.6;
+  background: #f4f4f4;
+  color: #333;
+}
+
+header {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  background: #222;
+  color: white;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+h1{
+  font-size: 2rem;
+}
+
+h2{
+  font-size: 1.5rem;
+}
+
+nav a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+#darkModeToggle {
+  background: transparent;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+  color: white;
+}
+
+.intro {
+  margin-top: 150px;
+  text-align: center;
+  padding: 2rem;
+}
+
+.profile-pic {
+  width: 120px;
+  border-radius: 50%;
+}
+
+.skills {
+  margin: 100px 0;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  row-gap: 50px;
+}
+
+.skills-card i {
+  font-size: 4rem;
+  text-shadow: 1px 1px 2px black;
+  margin-right: 15px;
+}
+
+.project-heading{
+  margin-top: 150px;
+  text-align: center;
+}
+
+.projects {
+  padding: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 1rem 2rem;
+  column-gap: 15px;
+}
+
+.project-card {
+  display: flex;
+  
+  row-gap:10px;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #ddd;
+  padding: 1rem;
+  margin: 1rem 0;
+  background: white;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:center;
+  row-gap: 50px;
+  margin: 50px 0;
+}
+
+.contact a i {
+  font-size: 4rem;
+  
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #222;
+  color: white;
+}
+
+/* Dark mode */
+.dark-mode {
+  background: #121212;
+  color: white;
+}
+
+.dark-mode header, .dark-mode footer {
+  background: #1e1e1e;
+}
+
+.dark-mode .project-card {
+  background: #1f1f1f;
+  border-color: #444;
+}
